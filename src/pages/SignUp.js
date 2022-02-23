@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import FormInput from "./components/FormInput";
+import FormInput from "../components/FormInput";
 
 const SignUp = () => {
   const [values, setValues] = useState({

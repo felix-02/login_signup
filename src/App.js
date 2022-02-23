@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
-import Login from "./Login";
-import SignUp from "./SignUp";
-import Success from "./Success";
+import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
+import Success from "./pages/Success";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
